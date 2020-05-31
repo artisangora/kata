@@ -7,7 +7,11 @@ use JsonException;
 
 class Memoizator
 {
-    //Необходимо закешировать переданную функцию
+    /**
+     * @see https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BC%D0%BE%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F
+     * @param Closure $fn
+     * @return Closure
+     */
     public function handle(Closure $fn): Closure
     {
         $cache = [];
