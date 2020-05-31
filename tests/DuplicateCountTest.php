@@ -1,10 +1,9 @@
 <?php
 
-namespace Tests;
+namespace App\Tests;
 
-use Code\DuplicateCount;
+use App\DuplicateCount;
 use PHPUnit\Framework\TestCase;
-
 
 class DuplicateCountTest extends TestCase
 {

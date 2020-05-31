@@ -1,9 +1,8 @@
 <?php
 
+namespace App;
 
-namespace Code;
-
-class Kebabize
+class Kebabizer
 {
     public function handle(string $string): string
     {

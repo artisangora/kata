@@ -1,8 +1,6 @@
 <?php
 
-
-namespace Code;
-
+namespace App;
 
 class ReverseWord
 {
@@ -22,7 +20,7 @@ class ReverseWord
         return implode(' ', $result);
     }
 
-    private function isEvenNumber(int $number):bool
+    private function isEvenNumber(int $number): bool
     {
         return $number % 2 === 0;
     }

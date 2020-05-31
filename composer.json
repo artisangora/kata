@@ -2,7 +2,8 @@
   "name": "artisangora/kata",
   "type": "project",
   "require": {
-    "php": ">=7.4"
+    "php": ">=7.4",
+    "ext-json": "*"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
@@ -10,8 +11,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Code\\": "src\\",
-      "Tests\\": "tests\\"
+      "App\\": "src/",
+      "App\\Tests\\": "tests/"
     }
   }
 }

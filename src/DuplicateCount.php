@@ -1,6 +1,6 @@
 <?php
 
-namespace Code;
+namespace App;
 
 class DuplicateCount
 {

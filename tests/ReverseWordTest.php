@@ -1,10 +1,9 @@
 <?php
 
-namespace Tests;
+namespace App\Tests;
 
-use Code\ReverseWord;
+use App\ReverseWord;
 use PHPUnit\Framework\TestCase;
-
 
 class ReverseWordTest extends TestCase
 {

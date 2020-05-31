@@ -1,16 +1,15 @@
 <?php
 
-namespace Tests;
+namespace App\Tests;
 
-use Code\Kebabize;
+use App\Kebabizer;
 use PHPUnit\Framework\TestCase;
 
-
-class KebabizeTest extends TestCase
+class KebabizerTest extends TestCase
 {
     public function testSimple(): void
     {
-        $k = new Kebabize();
+        $k = new Kebabizer();
 
         $this->assertEquals('my-camel-cased-string', $k->handle('myCamelCasedString'));
         $this->assertEquals('my-camel-has-humps', $k->handle('myCamelHas3Humps'));
